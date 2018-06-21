@@ -19,9 +19,11 @@ function appendKitten(k){
 function prependKitten(k){
   return [k, ...kittens]
 }
-function RemovelastKitten(k){
-  
+function removelastKitten(k){
+  var MoreKittens = kittens.shift(0, kittens.length - 1) 
+  return MoreKittens
 }
-function RemovelastKitten(k){
-  
+function removeFirstKitten(k){
+  var MoreKittens = kittens.shift(0) 
+  return MoreKittens
 }
