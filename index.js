@@ -20,8 +20,8 @@ function prependKitten(k){
   return [k, ...kittens]
 }
 function removeLastKitten(k){
-  var MoreKittens = kittens.shift(0, kittens.length - 1) 
+  var MoreKittens = kittens.slice(0, kittens.length - 1) 
 }
 function removeFirstKitten(){
-  var MoreKittens = kittens.shift(0) 
+  var MoreKittens = kittens.slice(0) 
 }
